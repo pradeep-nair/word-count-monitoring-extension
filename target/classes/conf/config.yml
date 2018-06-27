@@ -1,0 +1,11 @@
+---
+metricPrefix: "Custom Metrics|Word Count|"
+
+filesToProcess:
+  - name: file1.txt
+    path: /Users/pradeep.nair/Documents/file1.txt
+  - name: metrics.txt
+    path: /Users/pradeep.nair/Documents/metrics.txt
+  - name: README.txt
+    path: /Users/pradeep.nair/Documents/README.txt
+...
