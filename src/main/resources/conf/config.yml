@@ -1,5 +1,5 @@
 ---
-metricPrefix: "Custom Metrics|Word Count|"
+metricPrefix: "Server|Component:8|Custom Metrics|WordCount2|"
 
 filesToProcess:
   - name: file1.txt
