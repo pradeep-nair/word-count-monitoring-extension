@@ -1,0 +1,9 @@
+---
+metricPrefix: "Server|Component:8|Custom Metrics|WordCount2.1|"
+
+filesToProcess:
+  - name: file1.txt
+    path: /Users/pradeep.nair/Documents/test
+
+numberOfThreads: 3
+...

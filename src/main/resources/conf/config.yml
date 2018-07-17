@@ -1,5 +1,5 @@
 ---
-metricPrefix: "Server|Component:8|Custom Metrics|WordCount2|"
+metricPrefix: "Server|Component:8|Custom Metrics|WordCount2.1|"
 
 filesToProcess:
   - name: file1.txt
@@ -8,4 +8,6 @@ filesToProcess:
     path: /Users/pradeep.nair/Documents/metrics.txt
   - name: README.txt
     path: /Users/pradeep.nair/Documents/README.txt
+
+numberOfThreads: 9
 ...
