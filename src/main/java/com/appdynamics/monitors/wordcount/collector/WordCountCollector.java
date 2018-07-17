@@ -26,7 +26,7 @@ public class WordCountCollector {
     public WordCountCollector(Map<String, String> file, MetricWriteHelper metricWriteHelper, MonitorContextConfiguration monitorContextConfiguration) {
         this.file = file;
         this.metricWriteHelper = metricWriteHelper;
-        this.metricPrefix = monitorContextConfiguration.getMetricPrefix() + file.get("name")
+        this.metricPrefix = monitorContextConfiguration.getMetricPrefix() + DEFAULT_METRIC_SEPARATOR.getPath() + file.get("name")
                 + DEFAULT_METRIC_SEPARATOR.getPath();
     }
 
