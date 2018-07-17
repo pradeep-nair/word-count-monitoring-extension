@@ -1,8 +1,9 @@
 package com.appdynamics.monitors.wordcount.utils;
 
 public enum Constants {
-    METRIC_PREFIX("Custom Metrics|WordCount2|"),
-    DEFAULT_METRIC_SEPARATOR("|");
+    DEFAULT_METRIC_PREFIX("Custom Metrics|WordCount2.1|"),
+    DEFAULT_METRIC_SEPARATOR("|"),
+    MONITOR_NAME("WordCountMonitor");
 
     private String path;
 
